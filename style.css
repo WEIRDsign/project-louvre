@@ -1,0 +1,327 @@
+.header{
+    width: 1920px;
+    background: var(--bgblack);
+}
+.novbar{
+    width: 1440px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.louvre_logo{
+    display: flex;
+    gap: 20px;
+}
+.louvre_text{
+    letter-spacing: 5px;
+}
+.buttons{
+    display: flex;
+    width: 720px;
+    height: 50px;
+    gap: 76px;
+    align-items: center;
+    justify-content: space-between; 
+}
+.buttons:hover{
+    cursor: pointer;
+}
+.main{
+    width: 1920px;
+    background: var(--bgblack);
+    padding: 114px 0 246px 240px;
+
+}
+.main_1{
+    position: relative;
+}
+.welcome_text{
+    text-transform: uppercase;
+}
+.to_louvre{
+    text-transform: uppercase;
+}
+.castle{
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.discover_louvre{
+    background: var(--red);
+    border: none;
+    width: 360px;
+    height: 75px;
+    border-radius: 9px;
+}
+.discover_louvre:hover{
+    background: var(--gold);
+    cursor: pointer;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    gap: 76px;
+    width: 598px;
+    height: 390px;
+}
+.welcome_1{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    z-index: 11;
+    letter-spacing: 5px;
+}
+.photo{
+    position: absolute;
+    width: 1215px;
+    height: 750px;
+    top:-116px;
+    left: 465px;
+}
+.section_virtual{
+    width:1920px;
+}
+.virtual_tour{
+    width: 1440px;
+    height: 1115px;
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
+.row_banner{
+    display: flex;
+    gap: 60px;
+}
+.row_banner_2{
+    display: flex;
+    gap: 60px;
+}
+.banners{
+    display: flex;
+    flex-direction: column;
+    gap: 78px;
+}
+.section_picture{
+    width: 1920px;
+    background: var(--bgblack);
+}
+.picture_explore{
+    width: 1440px;
+    height: 715px;
+    display: flex;
+    gap: 60px;
+}
+.exploring_picture{
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
+.text_2{
+    display: flex;
+}
+.veil{
+    color: var(--gold);
+    display: flex;
+}
+.explore_text{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.photo_explore{
+    padding-top: 15px;
+}
+.section_video{
+    width:1920px;
+}
+.about_video{
+    width: 1440px;
+    height: 834px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+}
+.video_louvre{
+    background: url(./assets/photos/louvre_video.png);
+    width: 1440px;
+    height: 629px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video_icons{
+    cursor: pointer;
+}
+.video_journey{
+    display: flex;
+    gap: 115px;
+}
+.journey{
+    width: 607px;
+    height: 90px;
+    letter-spacing: 5px;
+}
+.video_about{
+    width:720px;
+    height: 90px;
+    line-height: 38.5px;
+}
+.section_tickets{
+    width: 1920px;
+    background: var(--bgblack);
+}
+.tickets{
+    width: 1440px;
+    height: 743px;
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
+.picture_ticket{
+    display: flex;
+    gap: 215px;
+}
+.picture_ticket_type{
+    display: flex;
+    gap: 60px;
+    width: 1050px;
+    height: 550px;
+}
+.ticket_type{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    line-height: 25.78px;
+}
+.radio_size{
+    width: 17px;
+    height: 17px;
+    accent-color: var(--white);
+}
+.amount{
+    width: 175px;
+    height: 445px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.amount_text{
+    text-align: end;
+}
+.for_younger_senior{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: flex-end;
+}
+.for_youngers{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+.basic{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.senior{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.for_seniors{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.total{
+    line-height: 32.81px;
+    letter-spacing: 1.65px;
+}
+.buy_now{
+    letter-spacing:2px ;
+    line-height: 25.78px;
+    border: none;
+    width: 175px;
+    height: 50px;
+}
+.buy_now:hover{
+    background: var(--red);
+    cursor: pointer;
+    color: var(--white);
+}
+.button_amount:hover{
+    background: var(--gold);
+}
+.section_contacts{
+    width: 1920px;
+}
+.contacts{
+    width: 1440px;
+    height: 813px;
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
+.locations{
+    height: 620px;
+    width: 1440px;
+    display: flex;
+    gap: 198px;
+}
+.palais{
+    width: 282px;
+    height: 221px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+.address_number_email{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section_footer{
+    width: 1920px;
+    background: var(--bgblack);
+}
+.footer{
+    width: 1440px;
+    height: 150px;
+    display: flex;
+    gap: 398px;
+}
+.footer_logo_novbar{
+    display: flex;
+    gap: 145px;
+}
+.footer_novbar{
+    width: 366px;
+    height: 150px;
+}
+.novbar_gap{
+    display: flex;
+    gap: 153px;
+}
+.novbar_gap_2{
+    display: flex;
+    gap: 172px;
+}
+.novbar_gap_3{
+    display: flex;
+    gap: 173px;
+}
+.social_media{
+   display: flex;
+   width: 336px;
+   height: 48px;
+   gap: 24px;
+   padding: 88px 0px 14px 0;
+   cursor: pointer;
+}
